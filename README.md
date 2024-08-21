@@ -31,11 +31,18 @@
 
 - Depend on: MapService & pnc_map
 - Provide: Routesegment & Reference_line
+- 
 ### 3.3 适配
 
 - 上游接口更新
 - 无图数据适配
+- 
 ### 3.4 异常case求解
+
+- 路口无法绕行curb
+- curb过多需要筛选
+- 相邻车道长度不一致
+- 获取路口边界异常
 
 ## 4. 接入上游nn_path
 ### 4.1 目标
